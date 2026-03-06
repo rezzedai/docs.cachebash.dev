@@ -25,6 +25,18 @@ const sidebars: SidebarsConfig = {
       label: 'Integration Guides',
       items: ['connect-claude-code', 'connect-cursor', 'connect-vscode'],
     },
+    {
+      type: 'category',
+      label: 'System Guides',
+      items: ['guides/multi-agent'],
+    },
+  ],
+  conceptsSidebar: [
+    {
+      type: 'category',
+      label: 'Core Concepts',
+      items: ['concepts/governance'],
+    },
   ],
   apiSidebar: [
     {
