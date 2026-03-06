@@ -72,9 +72,10 @@ const config: Config = {
           label: 'Docs',
         },
         {
-          to: '/docs/intro',
-          label: 'API Reference',
+          type: 'docSidebar',
+          sidebarId: 'apiSidebar',
           position: 'left',
+          label: 'API Reference',
         },
         {
           href: 'https://github.com/rezzedai/cachebash',

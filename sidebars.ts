@@ -26,7 +26,31 @@ const sidebars: SidebarsConfig = {
       items: ['connect-claude-code', 'connect-cursor', 'connect-vscode'],
     },
   ],
-  apiSidebar: [],
+  apiSidebar: [
+    {
+      type: 'category',
+      label: 'API Reference',
+      items: [
+        'api/index',
+        'api/dispatch',
+        'api/relay',
+        'api/pulse',
+        'api/signal',
+        'api/dream',
+        'api/sprint',
+        'api/keys',
+        'api/programs',
+        'api/program-state',
+        'api/gsp',
+        'api/metrics',
+        'api/audit',
+        'api/trace',
+        'api/clu',
+        'api/feedback',
+        'api/admin',
+      ],
+    },
+  ],
 };
 
 export default sidebars;
