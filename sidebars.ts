@@ -19,7 +19,13 @@ const sidebars: SidebarsConfig = {
     'core-concepts',
     'quick-start',
   ],
-  guidesSidebar: [],
+  guidesSidebar: [
+    {
+      type: 'category',
+      label: 'Integration Guides',
+      items: ['connect-claude-code', 'connect-cursor', 'connect-vscode'],
+    },
+  ],
   apiSidebar: [],
 };
 
